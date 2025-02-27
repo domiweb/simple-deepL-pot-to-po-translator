@@ -27,7 +27,7 @@ Initialize a Git repository and clone the script:
 ```sh
 git init
 # If you already have a repository, clone it
-git clone <your-repo-url>
+git clone https://github.com/domiweb/simple-deepL-pot-to-po-translator
 cd <your-repo-folder>
 ```
 
@@ -37,7 +37,7 @@ Edit the script and replace `YOUR-DEEPL-API-KEY` with your actual DeepL API key.
 ### 3. Run the Script
 Execute the script to translate a `.pot` file:
 ```sh
-python script.py
+python main.py
 ```
 Follow the on-screen prompts to:
 - Enter the path to the `.pot` file.
@@ -47,7 +47,7 @@ Follow the on-screen prompts to:
 ### 4. Example Usage
 Assume you have a `.pot` file located at `translations/messages.pot`. Run:
 ```sh
-python script.py
+python main.py
 ```
 Enter:
 ```
@@ -71,5 +71,5 @@ Feel free to contribute by submitting pull requests or reporting issues!
 ---
 
 ### Author
-Your Name (or Company Name)
+domiweb
 
